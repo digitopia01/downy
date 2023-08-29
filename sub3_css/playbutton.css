@@ -1,0 +1,59 @@
+*{
+    margin:0;
+}
+.con_ad{
+    background:pink;
+}
+.ad{
+    clip-path:circle(13% at 50% 50%);
+    width:100%;
+    position:relative;
+}
+.vid_but{
+    background:none;
+    border:none;
+    width:500px;
+    height:500px;
+    overflow:hidden;
+    padding:none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.runningtext{
+    transform:translate(-8px, -506px);
+}
+@keyframes circlefull{
+    0%{
+
+    }
+    100%{
+        clip-path:circle(100% at 50% 50%);
+    }
+}
+@keyframes disappear{
+    0%{
+
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes rotational{
+    0%{
+
+    }
+    100%{
+        transform:translate(-8px, -506px) rotate(360deg) ;
+}
+}
+@keyframes fadeout {
+    0% {
+        background-color: rgba(0, 0, 0, 1);
+    }
+    100% {
+        background-color: tr2ansparent;
+    }
+}

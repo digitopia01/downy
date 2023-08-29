@@ -1,0 +1,57 @@
+*{margin:0px; padding:0px;}
+ul{list-style:none;}
+a{text-decoration:none; color:#222;}
+
+
+
+/*pc!!!!!!!!!!!!!*/
+@media (min-width:1221px) {
+
+
+    /*header*/
+    header{width:100%; position:relative; z-index:1;}
+    header ul{display:flex; justify-content:space-between; width:1200px; margin:20px auto 0px;}
+    header h1{width:100px;}
+    header img{width:100%;}
+    header .menu{width:500px; line-height:40px;}
+    header .hd_icon{width:60px; transform:translateY(10px);}
+
+
+    /*visual*/
+    #visual{width:100%; height:100vh; background:url(../img/visual1.png) no-repeat center/cover; transform:translateY(-86.5px);}
+    #visual .title{width:1200px; padding-top:400px; margin:0px auto;}
+    #visual h2{color:#e36a8d; font-size:65px; font-family: 'Noto Serif Vithkuqi', serif;}
+    #visual p{color:#e36a8d; font-size:20px; margin:20px 0px 40px;}
+    #visual .box{width:170px; height:40px;line-height:40px; background:rgba(255, 239, 245, 0.767); text-align:center;}
+    #visual .box a{width:100%; height:100%; display:block; color:#e36a8d;}
+    #visual .box span{transform:translateY(5px);}
+
+
+    /*container*/
+    #container{width:100%; margin:0px auto;}
+    .con1{width:1200px; margin:0px auto; position:relative;}
+    .con1 .le1{width:70px; position:absolute; top:-50px;}
+    .con1 .le2{width:140px; position:absolute; top:200px; left:-150px;}
+    .con1 .ri1{width:90px; position:absolute; top:-230px; right:-100px}
+    .con1 .ri2{width:150px; position:absolute; top:50px; right:-250px}
+    .con1 .ri3{width:70px; position:absolute; top:300px; right:0px}
+    .con1 ul{width:950px; margin:100px auto 150px; display:flex; justify-content:space-between;}
+    .con1 img{width:400px; border-radius:200px 200px 0px 0px;}
+    .con1 h4{font-size:25px; margin-top:100px;}
+    .con1 p{font-size:17px; line-height:25px; margin:30px 0px;}
+    .con1 li:nth-of-type(1) p{margin-bottom:100px;}
+
+
+    .con2{background:#f7f7f7;}
+
+
+}
+
+
+
+/*태블릿!!!!!!!!!!!!!*/
+@media (min-width:768px) and (max-width:1220px) {}
+
+
+/*모바일!!!!!!!!!!!!!*/
+@media (max-width:767px) {}
